@@ -5,6 +5,18 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{2310FD7C-7306-42B9-8D82-44C011631364}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Essential Language Features", "Essential Language Features", "{D0C851BD-8195-4CF9-B27B-8E960892BF24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpression", "LambdaExpression\LambdaExpression.csproj", "{7C85B292-B6D9-4D41-A915-6478637D1B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpression.Test", "LambdaExpression.Test\LambdaExpression.Test.csproj", "{5B998947-2BE3-4F65-9B6E-5D873ABF8744}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Working with Razor", "Working with Razor", "{91C0BF4D-9C53-451D-9A2A-D69C4C289197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRazor", "WorkingWithRazor\WorkingWithRazor.csproj", "{9D70E1CF-26BE-430A-97E3-234670E39A65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithRazor.Tests", "WorkingWithRazor.Tests\WorkingWithRazor.Tests.csproj", "{457C6058-3CB7-464C-B2A8-EAA5DDF34301}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +27,30 @@ Global
 		{2310FD7C-7306-42B9-8D82-44C011631364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2310FD7C-7306-42B9-8D82-44C011631364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2310FD7C-7306-42B9-8D82-44C011631364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C85B292-B6D9-4D41-A915-6478637D1B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C85B292-B6D9-4D41-A915-6478637D1B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C85B292-B6D9-4D41-A915-6478637D1B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C85B292-B6D9-4D41-A915-6478637D1B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B998947-2BE3-4F65-9B6E-5D873ABF8744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B998947-2BE3-4F65-9B6E-5D873ABF8744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B998947-2BE3-4F65-9B6E-5D873ABF8744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B998947-2BE3-4F65-9B6E-5D873ABF8744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D70E1CF-26BE-430A-97E3-234670E39A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D70E1CF-26BE-430A-97E3-234670E39A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D70E1CF-26BE-430A-97E3-234670E39A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D70E1CF-26BE-430A-97E3-234670E39A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{457C6058-3CB7-464C-B2A8-EAA5DDF34301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457C6058-3CB7-464C-B2A8-EAA5DDF34301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457C6058-3CB7-464C-B2A8-EAA5DDF34301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457C6058-3CB7-464C-B2A8-EAA5DDF34301}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C85B292-B6D9-4D41-A915-6478637D1B60} = {D0C851BD-8195-4CF9-B27B-8E960892BF24}
+		{5B998947-2BE3-4F65-9B6E-5D873ABF8744} = {D0C851BD-8195-4CF9-B27B-8E960892BF24}
+		{9D70E1CF-26BE-430A-97E3-234670E39A65} = {91C0BF4D-9C53-451D-9A2A-D69C4C289197}
+		{457C6058-3CB7-464C-B2A8-EAA5DDF34301} = {91C0BF4D-9C53-451D-9A2A-D69C4C289197}
 	EndGlobalSection
 EndGlobal
